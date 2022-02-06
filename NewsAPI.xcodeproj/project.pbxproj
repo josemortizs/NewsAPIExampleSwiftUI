@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB012DC027B04BFF00F4C18E /* ExtensionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB012DBF27B04BFF00F4C18E /* ExtensionDate.swift */; };
 		DB16909727AEE1B600B67ECA /* NewsAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB16909627AEE1B600B67ECA /* NewsAPIApp.swift */; };
 		DB16909B27AEE1B700B67ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB16909A27AEE1B700B67ECA /* Assets.xcassets */; };
 		DB16909E27AEE1B700B67ECA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB16909D27AEE1B700B67ECA /* Preview Assets.xcassets */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB012DBF27B04BFF00F4C18E /* ExtensionDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDate.swift; sourceTree = "<group>"; };
 		DB16909327AEE1B600B67ECA /* NewsAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB16909627AEE1B600B67ECA /* NewsAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPIApp.swift; sourceTree = "<group>"; };
 		DB16909A27AEE1B700B67ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +58,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB012DBD27B04BD400F4C18E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DB012DBE27B04BF400F4C18E /* Extension */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DB012DBE27B04BF400F4C18E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DB012DBF27B04BFF00F4C18E /* ExtensionDate.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		DB16908A27AEE1B600B67ECA = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +95,7 @@
 			children = (
 				DB1690BA27AEF06800B67ECA /* UserCases */,
 				DB1690AA27AEE3DE00B67ECA /* DataModules */,
+				DB012DBD27B04BD400F4C18E /* Utils */,
 				DB16909627AEE1B600B67ECA /* NewsAPIApp.swift */,
 				DB16909A27AEE1B700B67ECA /* Assets.xcassets */,
 				DB16909C27AEE1B700B67ECA /* Preview Content */,
@@ -279,6 +298,7 @@
 				DB1690B927AEF01D00B67ECA /* ApiHelpers.swift in Sources */,
 				DB16909727AEE1B600B67ECA /* NewsAPIApp.swift in Sources */,
 				DB1690BD27AEF08B00B67ECA /* NewsViewModel.swift in Sources */,
+				DB012DC027B04BFF00F4C18E /* ExtensionDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

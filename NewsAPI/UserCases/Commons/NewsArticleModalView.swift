@@ -20,6 +20,10 @@ struct NewsArticleModalView: View {
                 .padding()
             Divider()
             
+            Text(article?.publishedAt?.toString() ?? "")
+            
+            Divider()
+            
             if let urlImage = URL(string: article?.urlToImage ?? "") {
                 KFImage(urlImage)
                     .resizable()
